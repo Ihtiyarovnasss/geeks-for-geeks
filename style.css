@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+body {
+    background-color: #010101;
+}
+
+.card-box {
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    width: 350px;
+}
+
+.top-card {
+    background-color: #0e6cc6;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.G-G {
+    -webkit-box-shadow: 2px 0px 15px 15px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 2px 0px 15px 15px rgba(34, 60, 80, 0.2);
+    box-shadow: 2px 0px 15px 15px rgba(34, 60, 80, 0.2);
+    width: 140px;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.geeks-for-geeks {
+    margin-top: 20px;
+    color: #4a4a4a;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.geeks-p {
+    margin-top: 3px;
+    color: #6f6f6f;
+    text-align: center;
+}
+
+.card-social-medial {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.geeks-p2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #545454;
+}
+
+.card-button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-button {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-color: #0e6cc6;
+    border-radius: 32px;
+    padding: 25px 100px;
+    border: none;
+}
